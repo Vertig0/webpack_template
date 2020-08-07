@@ -10,6 +10,9 @@ import './assets/scss/main.scss'
 // Vue.js
 window.Vue = require('vue')
 
+// Axios 
+import Axios from 'axios'
+
 // Vue components (for use in html)
 Vue.component('example-component', require('./js/components/Example.vue').default)
 
